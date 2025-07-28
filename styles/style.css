@@ -270,3 +270,38 @@ border: none;
 color: aliceblue;
 cursor: pointer;
 }
+/* Footer Section Style */
+.footer_section{
+  width: 1320px;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(17, 16, 16);
+}
+.footer_content{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.footer_content h1{
+  color: #FFFFFF;
+}
+.footer_content span{
+  color: #E55473;
+}
+.footer_text{
+  color: #FFFFFF;
+}
+.copy_right{
+  color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+#FFFFFF66
+}
