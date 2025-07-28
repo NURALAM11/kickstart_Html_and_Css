@@ -120,6 +120,8 @@ background: rgba(167, 33, 98, 0.15);
   gap: 100px;
   justify-content:space-evenly;
   align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
 }
 .group{
   width: 270px;
@@ -180,4 +182,36 @@ color: aliceblue;
 .sale_image img{
   width: 50%;
   margin-left: 130px;
+}
+/* Instagram Section Style */
+.intagram_section_container{
+  width: 1320px;
+  height: 950px;
+  
+}
+.instagram_text_content{
+  height: 132px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  
+
+}
+.instagram_image_container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.first_insta_image{
+   width: 95%;
+   height: 100%;
+   
+}
+.first_insta_image img{
+width: 100%;
+height: 100%;
+margin-left: 15px;
+margin-top: 15px;
+border-radius: 20px;
+border: 2px dotted tomato;
 }
